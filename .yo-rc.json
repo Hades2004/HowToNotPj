@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "HowToNotPj",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.1",
+    "jwtSecretKey": "ZWFhODk5MTcwNjFjMWNhZjViNWE5ZmYyNzJiYjBiZmQxMGFiZWY1ODc2M2QxYTY2N2NkODc2OWE2NzRjNWQwMTQ1MjRmMjBlMjAzMDBkMDk3MTQxMGQ5ZDVlYTkzMzkyM2I1ODg5NmNlY2JlMjZjMjg3OGZhYTMwMmRmM2I3ZmU="
+  },
+  "git-provider": "GitHub",
+  "git-company": "Hades2004",
+  "repository-name": "HowToNotPj"
+}
