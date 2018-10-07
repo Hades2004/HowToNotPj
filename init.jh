@@ -1,0 +1,49 @@
+entity User {
+	name String required,
+    password String required,
+    email String required
+}
+
+entity Tutorial {
+	title String required,
+	description String,
+    owner User required
+}
+
+entity Vote {
+	user User required,
+    tutorial Tutorial required
+}
+
+relationship OneToOne {
+	Tutorial{owner} to User,
+    Vote{user} to User,
+    Vote{tutorial} to Tutorial
+}
+
+relationship ManyToMany {
+	
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+
+}
+
+relationship ManyToOne {
+	
+}
+
+
+// Set pagination options
+paginate Tutorial, User with infinite-scroll
+//paginate Job with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
